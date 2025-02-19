@@ -29,10 +29,10 @@ namespace _22vvv1shopapp.Controllers
             })
             .ToArray();
         }
-        [HttpGet(Name = "Pow2")]
-        public double Post (int number)
-        {
-            return Math.Pow(number, 2);
-        }
+        //[HttpGet(Name = "Pow2")]
+        //public double Post (int number)
+        //{
+        //    return Math.Pow(number, 2);
+        //}
     }
 }
